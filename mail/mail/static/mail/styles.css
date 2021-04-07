@@ -1,0 +1,12 @@
+textarea {
+    min-height: 400px;
+}
+
+.read {
+    background-color: rgb(177, 177, 177);
+}
+
+.card-header{
+    font-weight: bold;
+}
+

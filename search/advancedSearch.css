@@ -1,0 +1,68 @@
+#img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#search {
+    position: absolute;
+    top: 10px;
+    right: 110px;
+}
+#advButton {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+#box {
+    background-color:#ededed;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    margin: 0px;
+}
+.advancedSearch {
+    margin-left: 2%;
+    margin-right: 80%;
+}
+h4 {
+    color: #DB4437;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 40px;
+}
+hr {
+    color: #ededed;
+}
+#allWords { 
+    margin-left: 122px;
+}
+#exactWords {
+    margin-left: 65px;
+}
+#anyWords {
+    margin-left: 100px;
+}
+#noneWords {
+    margin-left: 93px;
+}
+.advancedSearch > label, #find { 
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.advancedSearch > input {
+    width: 40%;
+    height: 25px;
+    clear: both;
+    border-radius: 2px;
+    border-color: lightgrey;
+    border-width: thin;
+    margin-bottom: 10px;
+}
+#find {
+    font-size: 18px;
+}

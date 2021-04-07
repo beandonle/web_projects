@@ -1,0 +1,49 @@
+#img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#adv {
+    position: absolute;
+    top: 10px;
+    right: 120px;
+}
+.centered {
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    display: inline;
+}
+.centered #searchBar {
+    width: 22%;
+    height: 25px;
+    clear: both;
+    border-radius: 2px;
+    border-color: lightgrey;
+    border-width: thin;
+    margin-left: 35%;
+    margin-bottom: 15px;
+    margin-right: 900px;
+}
+#searchButton, #luckyButton {
+    margin-top: 20px;
+    border-radius: 4px;
+    border-color: transparent;
+    color: grey;
+    padding: 8px 22px;
+    display: inline-block;
+}
+#searchButton {
+    margin-left: 44%;
+    margin-right: 10px;
+}
+
+#logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 15px;
+}

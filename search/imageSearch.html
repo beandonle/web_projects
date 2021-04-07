@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="imageSearch.css">
+    </head>
+    <body>
+        <img id="logo" src="google.png" height="100px">
+        <form class="centered" action="https://google.com/search">
+            <!--tbm=isch is needed for image search-->
+            <input name="tbm" value="isch" type="hidden">
+            <input id ="searchBar" type="text" name="q">
+            <input id="searchButton" type="submit" value="Google Image Search">
+        </form>
+
+        <div id="search"><a href="index.html">Search</a></div>
+        <div id="adv"><a href="advancedSearch.html">Advanced Google Search</a></div>
+    </body>
+</html>
